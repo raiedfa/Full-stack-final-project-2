@@ -1,38 +1,12 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-image: url('https://img.freepik.com/free-psd/shopping-vertical-background_23-2150409471.jpg?t=st=1683931935~exp=1683932535~hmac=58d6e375a959687c795f119e2e54f4badcb92271ad0ced21f57cf144e545dc91');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    /* filter: brightness(60%); */
 }
